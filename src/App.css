@@ -1,0 +1,84 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+.users
+{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+
+}
+
+.users td, .users th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.users tr:nth-child(even){background-color: #f2f2f2;}
+
+.users tr:hover {background-color: #ddd;}
+
+.users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2ba6e2;
+  color: white;
+}
+
+.Buttons
+{
+  display: flex;
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  justify-content: center;
+  color: #2ba6e2;
+  cursor:pointer;
+  gap: 10px;
+
+}
+
+.Buttons a{
+
+  padding: 8px 16px; 
+
+}
+
+.Buttons a:hover{
+  color:aliceblue;
+  background-color: rgb(138, 133, 133);
+
+}
+.paginationActive a
+{
+color:white;
+background-color:#2ba6e2;
+
+}
+
+.paginationActive a:hover
+{
+color:rgb(58, 6, 6);
+background-color:#2ba6e2;
+
+}
+
+.nextBtn:hover
+{
+
+  color:white;
+  background-color:#2ba6e2;
+
+
+}
+.prevBtn:hover
+{
+
+
+  color:white;
+background-color:#2ba6e2;
+}
