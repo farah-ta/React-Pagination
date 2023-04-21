@@ -14,17 +14,7 @@ function App() {
   const displayUsers = data
     .slice(pagesVisited, pagesVisited + recordPerPage);
     
-     
-       /*  <div className="data">
 
-
-
-
-         {/*  <h3>{user.first_name}</h3>
-          <h3>{user.last_name}</h3>
-          <h3>{user.email}</h3> */
-        // </div> */
-      
     
 
   const pageCount = Math.ceil(users.length / recordPerPage);
@@ -36,7 +26,7 @@ function App() {
   return (
     
     <div className="App">
-      {/* {displayUsers} */}
+      
       <h1>React Pagination</h1>
 
       <table className="users">
